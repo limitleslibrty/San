@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Check for Updates - SAN App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #1f1c2c, #928DAB);
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .glass {
+      backdrop-filter: blur(15px);
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+  </style>
+</head>
+<body class="text-white snap-y snap-mandatory overflow-y-scroll h-screen bg-fixed">
+
+  <!-- Update Card 1 -->
+  <section class="h-screen snap-center flex items-center justify-center px-4">
+    <div class="glass p-10 rounded-2xl w-full max-w-2xl text-center">
+      <h1 class="text-3xl font-bold mb-4">🚀 SAN App Update</h1>
+      <p class="text-lg mb-6 text-gray-200">You're just one step away from the latest experience!</p>
+      
+      <div class="bg-white bg-opacity-10 rounded-xl p-5 mb-5">
+        <h2 class="text-xl font-semibold">Latest Version:</h2>
+        <p class="text-2xl font-bold text-green-400 mt-1">v1.0.0</p>
+
+        <div class="mt-4 flex items-center justify-center space-x-2 text-sm text-gray-200 bg-white bg-opacity-10 px-3 py-1 rounded-full w-fit mx-auto shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3M16 7V3M4 11h16M4 19h16M4 15h16" />
+          </svg>
+          <span class="font-medium text-blue-300">Issued on: June 19, 2025</span>
+        </div>
+      </div>
+
+      <a href="  " 
+        class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-300 shadow-md">
+        ⬇ Download Update
+      </a>
+      <p class="mt-6 text-sm text-gray-300">Need help? 
+        <a href="mailto:  jkvk27753@gmail.com" class="underline hover:text-white">Contact support</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Update Card 2
+  <section class="h-screen snap-center flex items-center justify-center px-4">
+    <div class="glass p-10 rounded-2xl w-full max-w-2xl text-center">
+      <h1 class="text-3xl font-bold mb-4">🚀 SAN App Update</h1>
+      <p class="text-lg mb-6 text-gray-200">Performance improvements and bug fixes.</p>
+      
+      <div class="bg-white bg-opacity-10 rounded-xl p-5 mb-5">
+        <h2 class="text-xl font-semibold">Latest Version:</h2>
+        <p class="text-2xl font-bold text-green-400 mt-1">v1.2.2</p>
+
+        <div class="mt-4 flex items-center justify-center space-x-2 text-sm text-gray-200 bg-white bg-opacity-10 px-3 py-1 rounded-full w-fit mx-auto shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3M16 7V3M4 11h16M4 19h16M4 15h16" />
+          </svg>
+          <span class="font-medium text-blue-300">Issued on: May 30, 2025</span>
+        </div>
+      </div>
+
+      <a href="https://yourdomain.com/san-app-v1.2.2.apk" download
+        class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-300 shadow-md">
+        ⬇ Download Update
+      </a>
+      <p class="mt-6 text-sm text-gray-300">Need help? 
+        <a href="mailto:support@yourdomain.com" class="underline hover:text-white">Contact support</a>
+      </p>
+    </div>
+  </section>
+ -->
+  <!-- Update Card 3
+  <section class="h-screen snap-center flex items-center justify-center px-4">
+    <div class="glass p-10 rounded-2xl w-full max-w-2xl text-center">
+      <h1 class="text-3xl font-bold mb-4">🚀 SAN App Update</h1>
+      <p class="text-lg mb-6 text-gray-200">New features and UI enhancements added.</p>
+      
+      <div class="bg-white bg-opacity-10 rounded-xl p-5 mb-5">
+        <h2 class="text-xl font-semibold">Latest Version:</h2>
+        <p class="text-2xl font-bold text-green-400 mt-1">v1.2.1</p>
+
+        <div class="mt-4 flex items-center justify-center space-x-2 text-sm text-gray-200 bg-white bg-opacity-10 px-3 py-1 rounded-full w-fit mx-auto shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3M16 7V3M4 11h16M4 19h16M4 15h16" />
+          </svg>
+          <span class="font-medium text-blue-300">Issued on: May 10, 2025</span>
+        </div>
+      </div>
+
+      <a href="https://yourdomain.com/san-app-v1.2.1.apk" download
+        class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-300 shadow-md">
+        ⬇ Download Update
+      </a>
+      <p class="mt-6 text-sm text-gray-300">Need help? 
+        <a href="mailto:support@yourdomain.com" class="underline hover:text-white">Contact support</a>
+      </p>
+    </div>
+  </section>
+ -->
+</body>
+</html>
